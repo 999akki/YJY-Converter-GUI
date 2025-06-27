@@ -1,3 +1,4 @@
+
 # 🔁 YJY Converter – JSON ↔ YAML Desktop GUI App
 
 **YJY Converter** is a desktop application that enables users to convert data between **JSON** and **YAML** formats through a simple graphical interface. The app is built using **Java Swing for GUI** and connects to **custom-built Python scripts** that perform conversion **without using any external libraries** like `PyYAML`, `json`, or others.
@@ -37,6 +38,38 @@ This project stands out by focusing on **low-level implementation and deep contr
 
 ---
 
+## 📦 Installation Instructions
+
+### ✅ Requirements
+
+Ensure the following are installed on your machine:
+
+- **Java JDK 8 or higher**  
+  Verify with:
+  ```
+  java -version
+  ```
+
+- **Python 3**  
+  Verify with:
+  ```
+  python --version
+  ```
+  ⚠️ Ensure `python` is added to your system PATH.
+
+---
+
+### 🚀 Running the App
+
+Run the application with:
+```bash
+java ConverterGUI.java
+```
+
+Make sure the working directory includes the `.py` files.
+
+---
+
 ## 🧰 Tech Stack
 
 | Component   | Technology                         |
@@ -52,12 +85,44 @@ This project stands out by focusing on **low-level implementation and deep contr
 
 - [ ] Inline output preview in GUI  
 - [ ] Theme toggle (Light/Dark mode)  
-- [ ] Drag-and-drop file selection  
-- [ ] Convert to/from `.txt`, `.xml`  
+- [ ] Drag-and-drop file selection   
 - [ ] Log output and error handling  
-- [ ] Integration with original C-based converter using JNI
+- [ ] Integration with original C-based converter using JNI  
 
 ---
 
 ## 📁 Project Structure
 
+```
+YJY-Converter-GUI/
+├── src/
+│   └── Converter/
+│       └── ConverterGUI.java         # Java Swing GUI logic
+├── j2y.py                        # JSON to YAML (manual logic)
+├── y2j.py                        # YAML to JSON (manual logic)
+├── README.md                         # Project overview
+└── .gitignore                        # Git ignore config
+```
+
+---
+
+## 🛡 License
+
+This project is licensed under the [MIT License](LICENSE).  
+Free to use, modify, and distribute.
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Akshay Dhamane**
+
+- 🔗 [GitHub](https://github.com/999akki)
+- 💼 [LinkedIn](https://www.linkedin.com/in/akshay-dhamane/)
+
+---
+
+## 🙌 Contributions & Feedback
+
+Feel free to fork, suggest improvements, or report bugs.  
+Open to collaboration and community improvements!
