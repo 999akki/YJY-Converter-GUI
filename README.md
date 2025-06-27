@@ -111,12 +111,15 @@ YJY-Converter-GUI/
 ├── src/
 │   └── Converter/
 │       └── ConverterGUI.java         # Java Swing GUI logic
+├── img/
+│   └── 1.png                     # Screenshot of Home Screen
+│   └── 2.png                     # Screenshot of File Selection
+│   └── 3.png                     # Screenshot of Conversion Success
 ├── j2y.py                        # JSON to YAML (manual logic)
 ├── y2j.py                        # YAML to JSON (manual logic)
 ├── README.md                         # Project overview
 └── .gitignore                        # Git ignore config
 ```
-
 ---
 
 ## 🛡 License
