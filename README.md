@@ -70,6 +70,19 @@ Make sure the working directory includes the `.py` files.
 
 ---
 
+## 🖼️ Screenshots
+
+### 🔹 Home Screen
+![Home Screen](img/1.png)
+
+### 🔹 File Selection View
+![File Selection](img/2.png)
+
+### 🔹 Conversion Complete Dialog
+![Conversion Success](img/3.png)
+
+---
+
 ## 🧰 Tech Stack
 
 | Component   | Technology                         |
